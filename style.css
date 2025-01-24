@@ -1,0 +1,398 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+p {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.btnn{
+    color: white;
+    background-color: #FF619D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btnn:hover {
+    background-color: #ff619e8c;
+    transform: scale(1.05);
+    color: #3b3e41;
+}
+
+.all-body {
+    width: 100%;
+    max-width: 1440px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.hero {
+    height: 90vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    padding-top: 5vh;
+   
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.hero-content {
+    height: 95vh;
+    width: 90%;
+    
+}
+
+.navbar {
+    
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    
+}
+
+.btn-nav {
+    height: 40px;
+    color: #768692;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn-nav:hover {
+    background-color: #ff619e8c;
+    transform: scale(1.05);
+    color: #3b3e41;
+}
+.icon{
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.icon:hover{
+    color: #FF619D;
+    transform: scale(1.05);
+}
+.community-box {
+    height: 90vh;
+  
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.com-box-text {
+    
+    width: 40%;
+}
+
+.com-box-svg {
+  
+    width: 60%;
+}
+
+
+
+
+.description {
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    width: 100%;
+   
+}
+
+.box-one {
+    
+    height: 450px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.051);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-two {
+    height: 450px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.051);
+    display: flex;
+    gap: 20%;
+   
+    align-items: center;
+}
+
+.box-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-one-text {
+    width: 55%;
+    padding-left: 10%;
+}
+
+.box-one-svg {
+    width: 50%;
+    padding-right: 10%;
+}
+
+.box-two-text {
+    width: 50%;
+    padding-right: 10%;
+   
+}
+
+.box-two-svg {
+    width: 30%;
+    padding-left: 10%;
+    
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+   
+    height: max-content;
+}
+
+.top-foot-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.top-foot {
+    
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    top: 12vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 50%;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.051);
+    
+}
+
+.bottom-foot-all {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    background: #020f1fef;
+    height: max-content;
+    padding-bottom: 20px;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.bottom-foot-content {
+    width: 90%;
+  
+    margin-top: 15vh;
+    display: flex;
+    color: white;
+}
+
+.footer-addr {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width:425px) {
+    .hero {
+        height: 97vh;
+        margin-bottom: 0%;
+        width: 100%;
+        background-image: url(images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        padding-top: 3vh;
+    }
+
+    .hero-content {
+        height: 100vh;
+        width: 90%;
+    }
+
+    .navbar {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 20px;
+    }
+
+    .btn-nav {
+        height: max-content;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 40px;
+    }
+
+    .community-box {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-around;
+    }
+
+    .com-box-text {
+       
+        width: 90%;
+        text-align: center;
+        font-size: 2rex;
+    }
+
+    .com-box-svg {
+        width: 90%;
+       
+    }
+
+    .box-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-one-text {
+        text-align: center;
+        width: 90%;
+        padding-left: 0%;
+    }
+
+    .box-one-svg {
+        width: 70%;
+        padding-right: 0%;
+    }
+
+    .box-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .box-two-text {
+        text-align: center;
+        width: 90%;
+        padding-right: 0%;
+        
+    }
+
+    .box-two-svg {
+        width: 70%;
+        padding-left: 0%;
+       
+    }
+
+    .top-foot {
+        top: 12vh;
+        font-size: 1.2rex;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        width: 90%;
+    }
+
+    .bottom-foot-content {
+        width: 90%;
+        
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: white;
+    }
+
+    .footer-addr {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+       
+    }
+
+    .copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
